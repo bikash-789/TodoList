@@ -53,6 +53,12 @@ app.post("/delete", (req, res)=>{
 });
 
 
+let port = process.env.PORT;
+if(port == null || port == ""){
+    port = 3000;
+}
+
+
 app.listen(3000, (req, res)=>{
-    console.log("Server is running at localhost:3000");
+    console.log("Server has started successfully!");
 });
