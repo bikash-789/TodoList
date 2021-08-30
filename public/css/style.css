@@ -4,11 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background: url("Background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.body-container{
+    background: url("dark-wood.png"), #5d2a8c;
+    height: 100vh;
 }
 
 h1{
@@ -21,7 +19,7 @@ h1{
 #header{
     min-width: 40rem;
     max-width: 70rem;
-    margin: 2rem auto;
+    margin: 0 auto;
     padding: 2rem;
 }
 
@@ -33,8 +31,7 @@ h1{
 }
 
 .items{
-    background: #fefefe;
-    backdrop-filter: blur(15px);
+    background: #fef0fe;
     border-radius: 1.5%;
     width: 95%;
     min-height: 50rem;
